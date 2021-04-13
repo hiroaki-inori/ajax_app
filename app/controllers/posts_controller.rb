@@ -4,7 +4,7 @@ class PostsController < ApplicationController
     @posts = Post.order(id: "DESC")
   end
 
-  #def new
+  #def new2
   #end
 
   def create
